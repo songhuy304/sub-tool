@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/*.example.txt
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.idea/
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/.vercel/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Media / runtime storage
+**/*.mp4
+**/*.wav
+**/storage/temp/
+**/storage/outputs/
+**/storage/uploads/
+**/storage/subtitles/
+**/logs/
+**/Downloaded/
+**/_frames/
+
+# OS / editor
+.DS_Store
+**/.husky/_/
+
+# Runtime storage artifacts
+douyin-download/storage/**
+!douyin-download/storage/.gitkeep

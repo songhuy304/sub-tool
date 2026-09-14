@@ -1,0 +1,364 @@
+{
+  "Dashboard": {
+    "title": "Bảng điều khiển",
+    "description": "Chào mừng bạn đến với bảng điều khiển! Tại đây bạn có thể quản lý nhóm của mình, xem hồ sơ và truy cập tất cả các tính năng của RecruitHub."
+  },
+
+  "Common": {
+    "loading": "Đang tải...",
+    "no-data": "Không có dữ liệu.",
+    "back": "Quay lại",
+    "submit": "Xác nhận",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "confirm": "Xác nhận",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "save": "Lưu",
+    "update": "Cập nhật",
+    "create": "Tạo",
+    "ok": "Đồng ý",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "sign-up": "Đăng ký",
+    "or-continue-with": "Hoặc tiếp tục với",
+    "already-have-account": "Đã có tài khoản?",
+    "approve": "Phê duyệt",
+    "reject": "Từ chối",
+    "continue": "Tiếp tục",
+    "save-changes": "Lưu thay đổi",
+    "reset": "Đặt lại",
+    "search": "Tìm kiếm",
+    "copy": "Sao chép",
+    "candidates": "Candidates",
+    "activity": "Activity",
+    "interviews": "Interviews",
+    "overview": "Overview"
+  },
+
+  "Column": {
+    "actions": "Hành động",
+    "joined": {
+      "label": "Ngày tham gia",
+      "tooltip": "Ngày tham gia nhóm"
+    },
+    "user": "Người dùng",
+    "role": {
+      "label": "Vai trò",
+      "tooltip": "Vai trò của thành viên trong nhóm"
+    },
+    "email": {
+      "label": "Email",
+      "tooltip": "Địa chỉ email của thành viên"
+    }
+  },
+
+  "Modal": {
+    "confirm": {
+      "title": "Xác nhận hành động",
+      "description": "Bạn có chắc chắn muốn thực hiện hành động này không? Hành động này không thể hoàn tác."
+    }
+  },
+
+  "SignUp": {
+    "title": "Đăng ký",
+    "description": "Tạo tài khoản RecruitHub để bắt đầu quản lý nhóm và ứng viên của bạn.",
+    "already-have-account": "Đã có tài khoản?",
+    "sign-up-success": "Đăng ký thành công! Vui lòng kiểm tra email để xác minh tài khoản của bạn."
+  },
+
+  "SignIn": {
+    "title": "Đăng nhập",
+    "description": "Chào mừng trở lại! Vui lòng đăng nhập vào tài khoản RecruitHub của bạn.",
+    "forgot-password": "Quên mật khẩu?",
+    "no-account": "Chưa có tài khoản?",
+    "sign-in-success": "Đăng nhập thành công! Chào mừng trở lại."
+  },
+
+  "Teams": {
+    "join-team-success": "Đã gửi yêu cầu tham gia team. Vui lòng chờ chủ team phê duyệt.",
+    "create-team-success": "Tạo nhóm thành công!",
+    "approve-join-request-success": "Phê duyệt yêu cầu tham gia nhóm",
+    "reject-join-request-success": "Từ chối yêu cầu tham gia nhóm",
+    "JoinTeam": {
+      "title": "Tham gia nhóm",
+      "description": "Nhập mã mời để tham gia nhóm của bạn."
+    },
+    "CreateTeam": {
+      "title": "Tạo nhóm",
+      "description": "Tạo nhóm mới để bắt đầu quản lý ứng viên và cộng tác với đồng đội."
+    }
+  },
+
+  "Jobs": {
+    "title": "Công việc",
+    "description": "Quản lý tin tuyển dụng và theo dõi ứng viên.",
+    "basic-info-title": "Thông tin cơ bản",
+    "salary-range": "Khoảng lương",
+    "description-title": "Mô tả công việc",
+    "hiring-team-title": "Nhóm tuyển dụng",
+    "hiring-team-description": "Chỉ định thành viên phụ trách và quản lý ứng viên cho công việc này.",
+    "hiring-team-job-owner": "Người sở hữu công việc",
+    "hiring-team-assign-to": "Giao cho",
+    "hiring-team-assign-to-placeholder": "Tìm thành viên nhóm...",
+    "hiring-team-you": "Bạn",
+    "hiring-team-info": "Thành viên được giao sẽ có thể quản lý ứng viên, thêm ghi chú, lên lịch phỏng vấn và cập nhật giai đoạn cho công việc này.",
+    "hiring-team-no-members": "Không tìm thấy thành viên nào.",
+    "hiring-team-owner": "Chủ sở hữu",
+    "hiring-team-member": "Thành viên",
+    "hiring-team-add": "Thêm thành viên",
+    "preview-title": "Xem trước tin tuyển dụng",
+    "preview-description": "Điền thông tin để xem trước tin tuyển dụng của bạn.",
+    "publish-options-title": "Tùy chọn đăng tuyển",
+    "publish-options-description": "Kiểm soát cách hiển thị công việc này với ứng viên.",
+    "published-title": "Đã đăng tuyển",
+    "published-description": "Hiển thị công việc này trên trang tuyển dụng.",
+    "pinned-title": "Đã ghim",
+    "pinned-description": "Ghim công việc này lên đầu danh sách.",
+    "create-title": "Tạo công việc",
+    "edit-title": "Chỉnh sửa công việc",
+    "list-title": "Công việc",
+    "list-description": "Quản lý tin tuyển dụng và theo dõi ứng viên.",
+    "create-job": "Tạo công việc",
+    "more-actions": "Thêm thao tác",
+    "stats": {
+      "total": "Tổng",
+      "open": "Đang mở",
+      "on-hold": "Tạm dừng",
+      "draft": "Bản nháp",
+      "archived": "Đã lưu trữ",
+      "closed": "Đã đóng"
+    },
+    "create-description": "Đăng tin tuyển dụng mới và thu hút nhân tài hàng đầu.",
+    "save-draft": "Lưu nháp",
+    "publish-job": "Đăng tuyển",
+    "create-success": "Job created successfully!",
+    "update-success": "Job updated successfully!",
+    "detail": {
+      "job-id": "JOB-{id}",
+      "posted": "Mở {date}",
+      "expires": "Hết hạn {date}",
+      "unpublished": "Chưa đăng",
+      "job-information": "Thông tin công việc",
+      "reports-to": "Báo cáo cho"
+    },
+    "card": {
+      "updated": "Cập nhật {time}",
+      "views": "{count} lượt xem",
+      "applicants": "{count} ứng viên",
+      "expires-in": "Hết hạn {days}",
+      "pin": "Ghim công việc",
+      "unpin": "Bỏ ghim",
+      "actions": "Thao tác",
+      "edit": "Chỉnh sửa",
+      "duplicate": "Nhân bản",
+      "archive": "Lưu trữ"
+    }
+  },
+
+  "error": {
+    "internal-sever": "Lỗi hệ thống",
+    "internal-server": "Lỗi hệ thống",
+    "user": {
+      "forbidden": "Bạn không có quyền thực hiện hành động này.",
+      "not-found": "Không tìm thấy người dùng.",
+      "invalid-credentials": "Email hoặc mật khẩu không hợp lệ.",
+      "already-exists": "Người dùng đã tồn tại.",
+      "already-in-team": "Người dùng đã có trong nhóm.",
+      "same-password": "Mật khẩu mới không được trùng với mật khẩu cũ."
+    },
+    "auth": {
+      "token-invalid": "Token không hợp lệ.",
+      "token-expired": "Token đã hết hạn.",
+      "token-missing": "Thiếu token xác thực.",
+      "unauthorized": "Không được ủy quyền."
+    },
+    "team": {
+      "exceed-limit": "Đã vượt quá giới hạn thành viên nhóm.",
+      "not-found": "Không tìm thấy nhóm.",
+      "invalid-invite-code": "Mã mời không hợp lệ.",
+      "request-exists": "Yêu cầu đã tồn tại.",
+      "request-not-found": "Không tìm thấy yêu cầu.",
+      "user-already-in-team": "Người dùng đã có trong nhóm.",
+      "request-already-processed": "Yêu cầu đã được xử lý.",
+      "not-in-team": "Người dùng không có trong nhóm.",
+      "same-team": "Bạn đang sử dụng nhóm này.",
+      "owner-required": "Bạn không có quyền để thực hiện hành động này."
+    }
+  },
+  "validation": {
+    "required": "{field} là bắt buộc.",
+    "invalid-email": "Địa chỉ email không hợp lệ.",
+    "min-length": "{field} phải có ít nhất {minLength} ký tự.",
+    "max-length": "{field} không được vượt quá {maxLength} ký tự.",
+    "max-tags": "Không được vượt quá {max}.",
+    "password-format": "Mật khẩu phải có 8-72 ký tự và bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt.",
+    "password-mismatch": "Mật khẩu không khớp.",
+    "username-format": "Tên người dùng chỉ chứa chữ cái, số và dấu gạch dưới.",
+    "invalid-slug": "Slug chỉ được chứa chữ cái thường, số và dấu gạch ngang.",
+    "invalid-emails": "Một hoặc nhiều địa chỉ email không hợp lệ.",
+    "salary-max": "Mức lương tối đa phải lớn hơn hoặc bằng mức lương tối thiểu.",
+    "expired-after-open": "Ngày hết hạn phải sau hoặc bằng ngày mở tuyển."
+  },
+  "field": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Nhập email của bạn",
+      "description": "Email address cannot be changed"
+    },
+    "email-or-username": {
+      "label": "Email hoặc Tên người dùng",
+      "placeholder": "Nhập email hoặc tên người dùng"
+    },
+    "username": {
+      "label": "Tên người dùng",
+      "placeholder": "Nhập tên người dùng"
+    },
+    "password": {
+      "label": "Mật khẩu",
+      "placeholder": "Nhập mật khẩu"
+    },
+    "confirm-password": {
+      "label": "Xác nhận mật khẩu",
+      "placeholder": "Xác nhận mật khẩu"
+    },
+    "full-name": {
+      "label": "Họ và tên",
+      "placeholder": "Nhập họ và tên của bạn"
+    },
+    "team-name": {
+      "label": "Tên nhóm",
+      "placeholder": "Nhập tên nhóm"
+    },
+    "slug": {
+      "label": "Slug",
+      "placeholder": "Nhập slug cho nhóm"
+    },
+    "invite-code": {
+      "label": "Mã mời",
+      "placeholder": "Nhập mã mời"
+    },
+    "emails": {
+      "label": "Danh sách email",
+      "placeholder": "Nhập email, cách nhau bằng dấu phẩy hoặc xuống dòng"
+    },
+    "role": {
+      "label": "Vai trò",
+      "placeholder": "Chọn vai trò"
+    },
+    "job-title": {
+      "label": "Tiêu đề công việc",
+      "placeholder": "VD: Senior Frontend Engineer"
+    },
+    "employment-type": {
+      "label": "Loại hình làm việc",
+      "placeholder": "Chọn loại hình làm việc"
+    },
+    "level": {
+      "label": "Cấp bậc",
+      "placeholder": "Chọn cấp bậc"
+    },
+    "status": {
+      "label": "Trạng thái",
+      "placeholder": "Chọn trạng thái"
+    },
+    "departments": {
+      "label": "Phòng ban",
+      "placeholder": "Chọn phòng ban"
+    },
+    "salary-min": {
+      "label": "Min",
+      "placeholder": "Nhập mức lương tối thiểu"
+    },
+    "salary-max": {
+      "label": "Max",
+      "placeholder": "Nhập mức lương tối đa"
+    },
+    "currency": {
+      "label": "Đơn vị tiền tệ",
+      "placeholder": "Chọn đơn vị tiền tệ"
+    },
+    "location": {
+      "label": "Địa điểm",
+      "placeholder": "VD: Hồ Chí Minh, Việt Nam"
+    },
+    "office-address": {
+      "label": "Địa chỉ văn phòng",
+      "placeholder": "VD: 123 Nguyễn Huệ, Quận 1, TP.HCM"
+    },
+    "work-location-type": {
+      "label": "Hình thức làm việc",
+      "placeholder": "Chọn hình thức làm việc"
+    },
+    "skills": {
+      "label": "Kỹ năng",
+      "placeholder": "Nhập kỹ năng rồi nhấn Enter"
+    },
+    "opened-at": {
+      "label": "Ngày mở tuyển",
+      "placeholder": "Chọn ngày mở tuyển"
+    },
+    "expires-at": {
+      "label": "Ngày hết hạn",
+      "placeholder": "Chọn ngày hết hạn"
+    },
+    "description": {
+      "label": "Mô tả công việc",
+      "placeholder": "Mô tả vai trò, trách nhiệm và công việc của ứng viên..."
+    },
+    "requirements": {
+      "label": "Yêu cầu công việc",
+      "placeholder": "Mô tả các yêu cầu và kỹ năng cần có..."
+    },
+    "benefits": {
+      "label": "Quyền lợi",
+      "placeholder": "Mô tả quyền lợi dành cho ứng viên..."
+    },
+    "is-negotiable": {
+      "label": "Có thể thương lượng"
+    },
+    "published": {
+      "label": "Đăng tuyển"
+    },
+    "pinned": {
+      "label": "Ghim tin tuyển dụng"
+    },
+    "createdDate": {
+      "label": "Created at",
+      "placeholder": "Chọn ngày"
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Tìm kiếm theo tiêu đề, từ khóa..."
+    }
+  },
+  "Invite": {
+    "title": "Mời thành viên mới",
+    "sidebar-title": "Mời thành viên vào nhóm",
+    "sidebar-description": "Thêm đồng đội để cộng tác, chia sẻ ý tưởng và cùng nhau hoàn thành công việc.",
+    "form-title": "Mời thành viên vào nhóm",
+    "form-description": "Mời thành viên trong nhóm của bạn để cùng cộng tác",
+    "email-label": "Địa chỉ email",
+    "email-placeholder": "example@email.com, example2@email.com",
+    "email-helper": "Bạn có thể dán nhiều địa chỉ email, cách nhau bằng dấu xuống dòng",
+    "role-helper-member": "Thành viên có thể xem và cộng tác trên các dự án.",
+    "role-helper-admin": "Quản trị viên có thể quản lý thành viên, cài đặt và lời mời.",
+    "placeholder": "example@email.com, example2@email.com",
+    "role": "Vai trò",
+    "admin": "Quản trị viên",
+    "member": "Thành viên",
+    "skip": "Bỏ qua",
+    "send": "Gửi lời mời",
+    "emails-required": "Vui lòng nhập địa chỉ email",
+    "invalid-emails": "Định dạng email không hợp lệ trong danh sách",
+    "success": "Gửi lời mời thành công!",
+    "error": "Gửi lời mời thất bại!",
+    "invite-member-success": "Gửi lời mời thành công!"
+  },
+  "Notifications": {
+    "title": "Thông báo",
+    "mark-all-as-read": "Đánh dấu tất cả là đã đọc",
+    "no-notifications": "Chưa có thông báo nào",
+    "reached-end": "Bạn đã xem hết thông báo."
+  }
+}

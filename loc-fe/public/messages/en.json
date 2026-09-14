@@ -1,0 +1,388 @@
+{
+  "Dashboard": {
+    "title": "Dashboard",
+    "description": "Welcome to the dashboard! Here you can manage your team, view profiles, and access all of RecruitHub's features."
+  },
+
+  "Common": {
+    "loading": "Loading...",
+    "no-data": "No data available.",
+    "back": "Back",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "update": "Update",
+    "create": "Create",
+    "ok": "OK",
+    "login": "Log in",
+    "logout": "Log out",
+    "sign-up": "Sign up",
+    "or-continue-with": "Or continue with",
+    "already-have-account": "Already have an account?",
+    "approve": "Approve",
+    "reject": "Reject",
+    "continue": "Continue",
+    "save-changes": "Save changes",
+    "reset": "Reset",
+    "search": "Search",
+    "copy": "Copy",
+    "candidates": "Candidates",
+    "activity": "Activity",
+    "interviews": "Interviews",
+    "overview": "Overview"
+  },
+
+  "Column": {
+    "actions": "Actions",
+    "joined": {
+      "label": "Joined",
+      "tooltip": "Date joined the team"
+    },
+    "user": "User",
+    "role": {
+      "label": "Role",
+      "tooltip": "Role of the member in the team"
+    },
+    "email": {
+      "label": "Email",
+      "tooltip": "Email address of the member"
+    }
+  },
+
+  "Modal": {
+    "confirm": {
+      "title": "Confirm Action",
+      "description": "Are you sure you want to perform this action? This action cannot be undone."
+    }
+  },
+
+  "SignUp": {
+    "title": "Sign up",
+    "description": "Create a RecruitHub account to start managing your teams and candidates.",
+    "already-have-account": "Already have an account?",
+    "sign-up-success": "Sign up successful! Please check your email to verify your account."
+  },
+
+  "SignIn": {
+    "title": "Log in",
+    "description": "Welcome back! Please log in to your RecruitHub account.",
+    "forgot-password": "Forgot password?",
+    "no-account": "Don't have an account?",
+    "sign-in-success": "Login successful! Welcome back."
+  },
+
+  "Profile": {
+    "update-profile-success": "Profile updated successfully",
+    "change-password-success": "Password changed successfully",
+    "update-profile-error": "Failed to update profile",
+    "title": "Profile",
+    "security": "Security",
+    "description-security": "Manage your password, active sessions, and account security.",
+    "description": "Manage your personal information and account settings.",
+    "description-update-profile": "Update your personal information and account settings.",
+    "description-change-password": "Change your account password to keep your account secure.",
+
+    "change-password": {
+      "title": "Change password",
+      "description": "Update your password to keep your account secure.",
+      "change-password-success": "Password changed successfully",
+      "change-password-error": "Failed to change password"
+    },
+
+    "active-devices": {
+      "title": "Active devices",
+      "description": "Manage devices where you're currently signed in."
+    }
+  },
+
+  "Teams": {
+    "join-team-success": "Join request submitted. Please wait for the team owner's approval.",
+    "create-team-success": "Team created successfully!",
+    "approve-join-request-success": "Join request approved",
+    "reject-join-request-success": "Join request rejected",
+    "JoinTeam": {
+      "title": "Join team",
+      "description": "Enter the invite code to join your team."
+    },
+    "CreateTeam": {
+      "title": "Create team",
+      "description": "Create a new team to start managing candidates and collaborating with teammates."
+    }
+  },
+
+  "error": {
+    "internal-sever": "Internal server error",
+    "internal-server": "Internal server error",
+    "user": {
+      "forbidden": "You do not have permission to perform this action.",
+      "not-found": "User not found.",
+      "invalid-credentials": "Invalid email or password.",
+      "already-exists": "User already exists.",
+      "already-in-team": "User is already in a team.",
+      "password-same": "New password cannot be the same as the current password.",
+      "old-password-incorrect": "Current password is incorrect."
+    },
+    "auth": {
+      "token-invalid": "Invalid token.",
+      "token-expired": "Token has expired.",
+      "token-missing": "Authentication token missing.",
+      "unauthorized": "Unauthorized."
+    },
+    "team": {
+      "exceed-limit": "Team member limit exceeded.",
+      "not-found": "Team not found.",
+      "invalid-invite-code": "Invalid invite code.",
+      "request-exists": "Request already exists.",
+      "request-not-found": "Request not found.",
+      "user-already-in-team": "User is already in the team.",
+      "request-already-processed": "Request has already been processed.",
+      "not-in-team": "User is not in the team.",
+      "same-team": "You are already using this team."
+    }
+  },
+  "validation": {
+    "required": "{field} is required.",
+    "invalid-email": "Invalid email address.",
+    "min-length": "{field} must be at least {minLength} characters.",
+    "max-length": "{field} must not exceed {maxLength} characters.",
+    "max-tags": "This field must not exceed {max}.",
+    "password-format": "Password must be 8-72 characters and include uppercase, lowercase, numbers, and special characters.",
+    "password-mismatch": "Passwords do not match.",
+    "username-format": "Username can only contain letters, numbers, and underscores.",
+    "invalid-slug": "Slug can only contain lowercase letters, numbers, and hyphens.",
+    "invalid-emails": "One or more email addresses are invalid.",
+    "salary-max": "Salary max must be greater than or equal to salary min.",
+    "expired-after-open": "Expiry date must be after or equal to opening date."
+  },
+  "field": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "description": "Email address cannot be changed"
+    },
+    "email-or-username": {
+      "label": "Email or Username",
+      "placeholder": "Enter email or username"
+    },
+    "username": {
+      "label": "Username",
+      "placeholder": "Enter username"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter password"
+    },
+    "confirm-password": {
+      "label": "Confirm password",
+      "placeholder": "Confirm password"
+    },
+    "full-name": {
+      "label": "Full name",
+      "placeholder": "Enter your full name"
+    },
+    "team-name": {
+      "label": "Team name",
+      "placeholder": "Enter team name"
+    },
+    "slug": {
+      "label": "Slug",
+      "placeholder": "Enter team slug"
+    },
+    "invite-code": {
+      "label": "Invite code",
+      "placeholder": "Enter invite code"
+    },
+    "emails": {
+      "label": "Email list",
+      "placeholder": "Enter emails, separated by commas or new lines"
+    },
+    "role": {
+      "placeholder": "Select role",
+      "label": "Role"
+    },
+    "job-title": {
+      "label": "Job Title",
+      "placeholder": "e.g. Senior Frontend Engineer"
+    },
+    "employment-type": {
+      "label": "Employment Type",
+      "placeholder": "Select employment type"
+    },
+    "level": {
+      "label": "Job Level",
+      "placeholder": "Select job level"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Select status"
+    },
+    "departments": {
+      "label": "Departments",
+      "placeholder": "Select departments"
+    },
+    "salary-min": {
+      "label": "Min salary",
+      "placeholder": "Min salary"
+    },
+    "salary-max": {
+      "label": "Max salary",
+      "placeholder": "Max salary"
+    },
+    "currency": {
+      "label": "Currency",
+      "placeholder": "Select currency"
+    },
+    "location": {
+      "label": "Location",
+      "placeholder": "Select location"
+    },
+    "office-address": {
+      "label": "Office Address",
+      "placeholder": "e.g. 123 Nguyen Hue, District 1, Ho Chi Minh City"
+    },
+    "work-location-type": {
+      "label": "Work Location Type",
+      "placeholder": "Select work location type"
+    },
+    "skills": {
+      "label": "Skills",
+      "placeholder": "Type a skill and press Enter"
+    },
+    "opened-at": {
+      "label": "Opening Date",
+      "placeholder": "Select date"
+    },
+    "expires-at": {
+      "label": "Expiration Date",
+      "placeholder": "Select date"
+    },
+    "description": {
+      "label": "Job Description",
+      "placeholder": "Describe the role, responsibilities, and what the candidate will be doing..."
+    },
+    "requirements": {
+      "label": "Requirements",
+      "placeholder": "Describe the required qualifications and skills..."
+    },
+    "benefits": {
+      "label": "Benefits",
+      "placeholder": "Describe the benefits offered to candidates..."
+    },
+    "is-negotiable": {
+      "label": "Negotiable"
+    },
+    "published": {
+      "label": "Published"
+    },
+    "pinned": {
+      "label": "Pinned"
+    },
+    "createdDate": {
+      "label": "Created at",
+      "placeholder": "Select your date"
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Search by title, keywords..."
+    }
+  },
+
+  "Invite": {
+    "title": "Invite new members",
+    "sidebar-title": "Invite members to your team",
+    "sidebar-description": "Add teammates to collaborate, share ideas, and get things done together.",
+    "form-title": "Invite members to your team",
+    "form-description": "Invite your team members to collaborate",
+    "email-label": "Email addresses",
+    "email-placeholder": "example@email.com, example2@email.com",
+    "email-helper": "You can paste multiple email addresses, separated by new lines",
+    "role-helper-member": "Members can view and collaborate on projects.",
+    "role-helper-admin": "Admins can manage members, settings, and invites.",
+    "placeholder": "example@email.com, example2@email.com",
+    "role": "Role",
+    "admin": "Admin",
+    "member": "Member",
+    "skip": "Skip",
+    "send": "Send invites",
+    "emails-required": "Please enter email addresses",
+    "invalid-emails": "Invalid email format in the list",
+    "success": "Invites sent successfully!",
+    "error": "Failed to send invites!",
+    "invite-member-success": "Invite sent successfully!"
+  },
+  "Jobs": {
+    "title": "Jobs",
+    "description": "Manage and track all job postings in your organization",
+    "basic-info-title": "Basic information",
+    "salary-range": "Salary range",
+    "description-title": "Job description",
+    "hiring-team-title": "Hiring team",
+    "hiring-team-description": "Assign a team member to own and manage candidates for this job.",
+    "hiring-team-job-owner": "Job owner",
+    "hiring-team-assign-to": "Assign to",
+    "hiring-team-assign-to-placeholder": "Search team member...",
+    "hiring-team-you": "You",
+    "hiring-team-info": "The assigned member will be able to manage candidates, add notes, schedule interviews and update stages for this job.",
+    "hiring-team-no-members": "No team members found.",
+    "hiring-team-owner": "Owner",
+    "hiring-team-member": "Member",
+    "hiring-team-add": "Add team member",
+    "preview-title": "Job post preview",
+    "preview-description": "Fill in the details to see a preview of your job post.",
+    "publish-options-title": "Publish options",
+    "publish-options-description": "Control how this job will be visible to candidates.",
+    "published-title": "Published",
+    "published-description": "Show this job on the career page.",
+    "pinned-title": "Pinned",
+    "pinned-description": "Highlight this job on top of the list.",
+    "create-title": "Create Job",
+    "edit-title": "Edit Job",
+    "list-title": "Jobs",
+    "list-description": "Manage your job postings and track applicants.",
+    "create-job": "Create job",
+    "more-actions": "More actions",
+    "stats": {
+      "total": "Total",
+      "open": "Open",
+      "on-hold": "On hold",
+      "draft": "Draft",
+      "archived": "Archived",
+      "closed": "Closed"
+    },
+    "create-description": "Post a new job opening and attract top talent.",
+    "save-draft": "Save draft",
+    "publish-job": "Publish job",
+    "create-success": "Job created successfully!",
+    "update-success": "Job updated successfully!",
+    "detail": {
+      "job-id": "JOB-{id}",
+      "posted": "Open {date}",
+      "expires": "Expires {date}",
+      "unpublished": "Unpublished",
+      "job-information": "Job information",
+      "reports-to": "Reports to"
+    },
+    "card": {
+      "updated": "Updated {time}",
+      "views": "{count} views",
+      "applicants": "{count} candidates",
+      "expires-in": "Expires {days}",
+      "pin": "Pin job",
+      "unpin": "Unpin job",
+      "actions": "Job actions",
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "archive": "Archive"
+    }
+  },
+  "Notifications": {
+    "title": "Notifications",
+    "mark-all-as-read": "Mark all as read",
+    "no-notifications": "No notifications yet",
+    "reached-end": "You've reached the end."
+  }
+}
