@@ -285,10 +285,6 @@ export function DouyinDownloadPage() {
               API {apiOk === null ? "…" : apiOk ? "online" : "offline"}
             </Badge>
           </div>
-          <p className="text-muted-foreground text-sm">
-            Tạo job → theo tiến trình → tải MP4 / ASS. Backend:{" "}
-            <code className="text-xs">{DOUYIN_API_URL}</code>
-          </p>
         </header>
 
         <Card>
